@@ -120,3 +120,11 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+.ticket-button{
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
