@@ -63,3 +63,10 @@ function calculateTotal(){
     var grandTotal = totalPrice + tax;
     document.getElementById("grand-total").innerText = "$" + grandTotal;
 };
+
+document.getElementById("book-btn").addEventListener("click", function(){
+    var sectionToHide = document.getElementById("main-section");
+    sectionToHide.style.display = "none";
+    var sectionToShow = document.getElementById("confirm-ticket");
+    sectionToShow.style.display = "block";
+})

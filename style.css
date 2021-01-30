@@ -96,7 +96,7 @@ nav ul li a:hover, a.active{
 }
 .booking-content{
     color: #fff;
-    width: 80%;
+    width: 100%;
 }
 .booking-content h1{
     font-size: 70px;
@@ -127,4 +127,18 @@ nav ul li a:hover, a.active{
     font-size: 30px;
     cursor: pointer;
     outline: none;
+}
+#confirm-ticket{
+    text-align: center;
+    margin: 200px 0;
+    display: none;
+}
+#confirm-ticket h2{
+    color: greenyellow;
+    font-size: 50px;
+}
+#confirm-ticket p{
+    line-height: 2;
+    color: white;
+    font-size: 30px;
 }
